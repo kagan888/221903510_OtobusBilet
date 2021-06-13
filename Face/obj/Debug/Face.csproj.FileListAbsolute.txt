@@ -1,0 +1,16 @@
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\bin\Debug\Face.dll
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\bin\Debug\Face.pdb
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.dll
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.pdb
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.csprojResolveAssemblyReference.cache
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\bin\Debug\Entity.dll
+C:\Users\Sinan\Desktop\OtobusOtomasyonu\Face\bin\Debug\Entity.pdb
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\bin\Debug\Face.dll
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\bin\Debug\Face.pdb
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\bin\Debug\Entity.dll
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\bin\Debug\Entity.pdb
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.csprojAssemblyReference.cache
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.csproj.CoreCompileInputs.cache
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.csproj.CopyComplete
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.dll
+C:\Users\Alemcibob\Desktop\OtobusOtomasyonu\Face\obj\Debug\Face.pdb

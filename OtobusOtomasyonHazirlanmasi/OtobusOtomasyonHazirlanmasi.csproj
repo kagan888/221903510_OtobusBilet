@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92995145-4F9F-4AF8-B5EC-309F6D158CBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OtobusOtomasyonHazirlanmasi</RootNamespace>
+    <AssemblyName>OtobusOtomasyonHazirlanmasi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BiletIslemleri\FrmBiletSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BiletIslemleri\FrmBiletSatis.Designer.cs">
+      <DependentUpon>FrmBiletSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanIslemleri\FrmYeniCalisan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanIslemleri\FrmYeniCalisan.Designer.cs">
+      <DependentUpon>FrmYeniCalisan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanTipIslemleri\FrmCalisanTipIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanTipIslemleri\FrmCalisanTipIslemleri.Designer.cs">
+      <DependentUpon>FrmCalisanTipIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBiletKes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBiletKes.Designer.cs">
+      <DependentUpon>FrmBiletKes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaIslemleri\FrmMarkaIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkaIslemleri\FrmMarkaIslemleri.Designer.cs">
+      <DependentUpon>FrmMarkaIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasrafTipIslemleri\FrmMasrafTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasrafTipIslemleri\FrmMasrafTip.Designer.cs">
+      <DependentUpon>FrmMasrafTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasrafTipIslemleri\MasrafTipDetayGor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasrafTipIslemleri\MasrafTipDetayGor.Designer.cs">
+      <DependentUpon>MasrafTipDetayGor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriIslemleri\FrmMusteriIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriIslemleri\FrmMusteriIslemleri.Designer.cs">
+      <DependentUpon>FrmMusteriIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtobusIslemleri\FrmOtobusIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtobusIslemleri\FrmOtobusIslemleri.Designer.cs">
+      <DependentUpon>FrmOtobusIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtobusMasrafIslemleri\FrmOtobusMasraflar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtobusMasrafIslemleri\FrmOtobusMasraflar.Designer.cs">
+      <DependentUpon>FrmOtobusMasraflar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeferIslemleri\FrmSeferIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeferIslemleri\FrmSeferIslemleri.Designer.cs">
+      <DependentUpon>FrmSeferIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SehirIslemleri\FrmSehir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SehirIslemleri\FrmSehir.Designer.cs">
+      <DependentUpon>FrmSehir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubeIslemleri\FrmSubeDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubeIslemleri\FrmSubeDetay.Designer.cs">
+      <DependentUpon>FrmSubeDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubeIslemleri\FrmSubeIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubeIslemleri\FrmSubeIslemleri.Designer.cs">
+      <DependentUpon>FrmSubeIslemleri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BiletIslemleri\FrmBiletSatis.resx">
+      <DependentUpon>FrmBiletSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanIslemleri\FrmYeniCalisan.resx">
+      <DependentUpon>FrmYeniCalisan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanTipIslemleri\FrmCalisanTipIslemleri.resx">
+      <DependentUpon>FrmCalisanTipIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBiletKes.resx">
+      <DependentUpon>FrmBiletKes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkaIslemleri\FrmMarkaIslemleri.resx">
+      <DependentUpon>FrmMarkaIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasrafTipIslemleri\FrmMasrafTip.resx">
+      <DependentUpon>FrmMasrafTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasrafTipIslemleri\MasrafTipDetayGor.resx">
+      <DependentUpon>MasrafTipDetayGor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriIslemleri\FrmMusteriIslemleri.resx">
+      <DependentUpon>FrmMusteriIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtobusIslemleri\FrmOtobusIslemleri.resx">
+      <DependentUpon>FrmOtobusIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtobusMasrafIslemleri\FrmOtobusMasraflar.resx">
+      <DependentUpon>FrmOtobusMasraflar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="SeferIslemleri\FrmSeferIslemleri.resx">
+      <DependentUpon>FrmSeferIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SehirIslemleri\FrmSehir.resx">
+      <DependentUpon>FrmSehir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubeIslemleri\FrmSubeDetay.resx">
+      <DependentUpon>FrmSubeDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubeIslemleri\FrmSubeIslemleri.resx">
+      <DependentUpon>FrmSubeIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{132EB1D1-C0CA-40D2-B8C1-79F4CD023B84}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Face\Face.csproj">
+      <Project>{CBE8F047-7E5A-498C-BBE5-7E567BDC85B6}</Project>
+      <Name>Face</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmGirisLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IslemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yonetimselaracicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sefericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonelIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OtobusIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MusteriIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarkaIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasrafIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalisanIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaporSefer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaporSefer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CikisIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cikis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yeniuye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temizle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calisanSil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guncelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeriDon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bus-up-to-55-pax_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Onayla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BiletIptal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raporal.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Sehir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otobusmasraf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasraftipTanımlama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnaListe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnaListe1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
